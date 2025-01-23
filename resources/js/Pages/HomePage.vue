@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { usePage } from "@inertiajs/vue3";
+
+const page = usePage();
+</script>
+
 <template>
     <main class="font-sans antialiased dark:bg-black dark:text-white/50">
         <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
@@ -331,7 +337,9 @@
                     <footer
                         class="py-16 text-center text-sm text-black dark:text-white/70"
                     >
-                        <!-- Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }}) -->
+                        v{{ page.props.versions?.laravel }} (PHP v{{
+                            page.props.versions?.php
+                        }})
                     </footer>
                 </div>
             </div>

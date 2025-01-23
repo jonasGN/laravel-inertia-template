@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use Illuminate\Foundation\Application;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -36,7 +37,10 @@ class HandleInertiaRequests extends Middleware
     public function share(Request $request): array
     {
         return array_merge(parent::share($request), [
-            //
+            'versions' => app()->isLocal() ? [
+                'laravel' => Application::VERSION,
+                'php' => PHP_VERSION
+            ] : [],
         ]);
     }
 }
