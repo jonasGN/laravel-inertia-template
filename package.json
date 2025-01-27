@@ -2,8 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "npm run type-check && vite build",
+        "build": "npm run type-check && vite build",
+        "dev": "vite",
         "type-check": "vue-tsc --noEmit"
     },
     "devDependencies": {
