@@ -7,20 +7,20 @@
         "type-check": "vue-tsc --noEmit"
     },
     "devDependencies": {
-        "@tailwindcss/vite": "^4.0.0",
+        "@tailwindcss/vite": "^4.1.2",
         "@vue/tsconfig": "^0.7.0",
-        "autoprefixer": "^10.4.20",
-        "axios": "^1.7.9",
+        "autoprefixer": "^10.4.21",
+        "axios": "^1.8.4",
         "concurrently": "^9.1.2",
         "laravel-vite-plugin": "^1.2.0",
-        "postcss": "^8.5.1",
-        "tailwindcss": "^4.0.0",
-        "typescript": "^5.7.3",
-        "vite": "^6.0.11",
-        "vue-tsc": "^2.2.0"
+        "postcss": "^8.5.3",
+        "tailwindcss": "^4.1.2",
+        "typescript": "^5.8.2",
+        "vite": "^6.2.5",
+        "vue-tsc": "^2.2.8"
     },
     "dependencies": {
-        "@inertiajs/vue3": "^2.0.3",
-        "@vitejs/plugin-vue": "^5.2.1"
+        "@inertiajs/vue3": "^2.0.6",
+        "@vitejs/plugin-vue": "^5.2.3"
     }
 }
