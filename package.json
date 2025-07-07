@@ -16,11 +16,11 @@
         "postcss": "^8.5.3",
         "tailwindcss": "^4.1.2",
         "typescript": "^5.8.2",
-        "vite": "^6.2.5",
-        "vue-tsc": "^2.2.8"
+        "vite": "^6.3.5",
+        "vue-tsc": "^2.2.12"
     },
     "dependencies": {
         "@inertiajs/vue3": "^2.0.6",
-        "@vitejs/plugin-vue": "^5.2.3"
+        "@vitejs/plugin-vue": "^5.2.4"
     }
 }
