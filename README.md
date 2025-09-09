@@ -11,3 +11,11 @@ Esse repositório conta o template de uma aplicação **inertia** pŕe configura
 ### Composer
 
 -   inertiajs/inertia-laravel
+
+## Configurando aplicação
+
+Execute o comando abaixo para iniciar as configurações da aplicação:
+
+```sh
+bash ./scripts/init.sh
+```
